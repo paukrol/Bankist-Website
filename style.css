@@ -327,6 +327,7 @@ img {
 .operations__header {
   font-size: 2.25rem;
   font-weight: 500;
+  /* align-self: center; */
 }
 
 .operations__description {
@@ -643,4 +644,16 @@ img {
 .hidden {
   visibility: hidden;
   opacity: 0;
+}
+
+/* COOKIE MESSAGE */
+.cookie-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #fff;
+  color: #bbb;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
