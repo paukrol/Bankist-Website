@@ -27,3 +27,11 @@ overlay.addEventListener('click', closeModal);
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal();
 });
+
+// Scrolling
+const section1 = document.querySelector('#section--1');
+const btnScrollTo = document.querySelector('.btn--scroll-to');
+
+btnScrollTo.addEventListener('click', () => {
+  section1.scrollIntoView({ behavior: 'smooth' });
+});
